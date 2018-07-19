@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Clicky Game</Title>
+        <Title>Flag Clicky Game</Title>
         {this.state.character.map(character => (
           <CharacterCard
             id={character.id}
